@@ -1,38 +1,22 @@
-.App {
-  text-align: center;
+.header{
+  position: absolute;
+  background: linear-gradient(to , #ff7e5f, #feb47b);
+  z-index: 10;
+}
+.image-container {
+  width: 100vw; /* Ensure the container takes the full width of the viewport */
+  overflow: hidden;
+  position: absolute;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image-container img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Netflix-Logo{
+  width: 200px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form{
+  opacity: 0.8;
 }
