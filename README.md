@@ -81,6 +81,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         - Movies Lists 
 
 - Netflix GPT
+    - Create React app
+    - Configure Tailwind
+    - Routing of APP
+    - Login
+    - Signup
+    - Form Validation
+    - FireBase Setup
+    - Deploy our APP to Firebase
+    - Create a Sigup user Account
+    - Authentication
     - Search Bar
     - Movies Suggestion
     - Better UI with Tailwind CSS and Pure CSS.
+
+
